@@ -148,5 +148,4 @@ void loop() {
         last = millis();
         Serial.printf("[MAIN] Free heap: %d bytes\n", ESP.getFreeHeap());
     }
-
 }
