@@ -59,8 +59,6 @@ void setup() {
     Serial.begin(SERIAL_BAUDRATE);
     Serial.println();
     Serial.println();
-
-    
     pinMode(LED1, OUTPUT);
     digitalWrite(LED1, HIGH); 
     pinMode(LED2, OUTPUT);
